@@ -1,1 +1,6 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[{"file_id":"1V1Fd7gF8Abpk3IlLwtrhT0pqfQ1N96pC","timestamp":1696939606883}],"authorship_tag":"ABX9TyOdRfezESONFX/EIBv7mCv0"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":null,"metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"m-KBneZCeks8","executionInfo":{"status":"ok","timestamp":1696939577011,"user_tz":-330,"elapsed":9731,"user":{"displayName":"A. Arun","userId":"13930771297954519629"}},"outputId":"7ca80790-73f0-43b6-8e5e-fb17000bc9a7"},"outputs":[{"output_type":"stream","name":"stdout","text":["Enter the year2004\n","Leap Year 2004\n"]}],"source":["year =int(input(\"Enter the year\"))\n","if (( year % 400 == 0) or ((year % 4 ==0) and (year %  100!=0))):\n","\n","       print(\"Leap Year\", year)\n","else:\n","       print(\"Not Leap year\", year)"]}]}
+year =int(input("Enter the year"))
+if (( year % 400 == 0) or ((year % 4 ==0) and (year %  100!=0))):
+
+       print("Leap Year", year)
+else:
+       print("Not Leap year", year)
